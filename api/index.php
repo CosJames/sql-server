@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Creaton</title>
+    <title>Pretzel API</title>
 </head>
 <body>
     <div class='ctn-container focus'>
-        <h1>This is Creaton <span id="highlight">API</span></h1>
+        <h1>This is Pretzel <span id="highlight">API</span></h1>
     </div>
 
     <div class='ctn-container focus'>
