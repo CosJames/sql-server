@@ -1,0 +1,7 @@
+409 - Conflict
+404 - Not found
+
+
+# STATUSCODE
+
+OK_POKE - Account is active

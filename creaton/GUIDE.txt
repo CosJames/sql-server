@@ -1,0 +1,48 @@
+# Startup
+- Change the info from init.php from the /src folder fill it out
+    with your database info
+
+
+# Usage 
+- # CreatonSQL Class #
+
+    # Include the file first like stated here
+    -----------------------------------------------------------
+    include '../creaton/database.php';
+    If you want to import it outside the directory of your file
+    use this to import CreatonLib to your file:
+    $creaton = getcwd().'/creaton/database.php';
+    -----------------------------------------------------------
+
+    # Instantiate the CreatonSQL variable
+    -----------------------------------------------------------
+    $variable_name = new CreatonSQL();
+    -----------------------------------------------------------
+
+    # You can now use the method inside this class
+    -----------------------------------------------------------
+    $variable_name.fetch() -> For getting rows from the database
+    $variable_name.insert() -> Insert rows from the database
+    $variable_name.update() -> Update a row from the database
+    $variable_name.delete() -> delete a row from the database
+    ----------------------------------------------------------
+    See '/src/q.php' for more info...
+
+- # CreatonFunction Class #
+
+    # Include the file first like stated here
+    -----------------------------------------------------------
+    include '../creaton/function.php';
+    -----------------------------------------------------------
+
+    # Instantiate the CreatonFunction variable
+    -----------------------------------------------------------
+    $variable_name = new CreatonFunction();
+    -----------------------------------------------------------
+
+    # You can now use the method inside this class
+    -----------------------------------------------------------
+    $variable_name.generateId -> generate a unique id
+    ----------------------------------------------------------
+    See '/src/h.php' for more info...
+
